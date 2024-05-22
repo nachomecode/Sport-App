@@ -1,0 +1,43 @@
+#login-box {
+    width: 300px;
+    padding: 70px;
+    margin: 100px auto;
+    background: #0D1152;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+
+#login-box {
+    font-family: Arial;
+    text-align: center;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #C61CE1;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    font-family: Arial;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #D9D9D9;
