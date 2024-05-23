@@ -25,6 +25,9 @@ input[type="password"] {
     font-family: Arial;
 }
 
+#usurname {
+    background-color: red;
+}
 
 input[type="submit"] {
     width: 100%;
@@ -41,3 +44,4 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #D9D9D9;
+}
