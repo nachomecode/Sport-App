@@ -5,29 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sport App</title>
     <link rel="stylesheet" href="./public/css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
   </head>
 
   <body>
     <header>
-      <nav>
-        <img
-          class="logo"
-          src="../Sport-App/public/assets/logo/imagenlogo.jpg"
-          alt="FútbolF5"
-        />
-        <h1>Fútbol F5</h1>
-        <div class="respmenu">
-          <input type="checkbox" />
-          <i class="fa-solid fa-bars"></i>
-          <i class="fas fa-times">
-          <ul>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Sorteo</a></li>
-            <li><a href="#">Clasificatorias</a></li>
-            <li><a href="#">Eliminatorias</a></li>
-            <li><a href="#">Ganador</a></li>
-          </ul>
-          </i>
+      <nav class="navbar bg-primary">
+        <div class="container-fluid">
+          <span class="navbar-color navbar-brand">
+            <img
+            class="logo"
+            src="public/assets/logo/imagenlogo.jpg"
+            alt="FútbolF5"/>
+            Fútbol F5
+          </span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sorteo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Clasificatorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Eliminatorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ganador</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
