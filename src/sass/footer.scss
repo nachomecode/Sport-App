@@ -1,33 +1,21 @@
-/* Body pagina 1 */
-
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('public/assets/images/background.jpeg'); /* Especifica la ruta a tu imagen */
-    background-size: cover; /* Escalar la imagen para que cubra toda la pantalla */
-    background-position: center; /* Centrar la imagen */
-    background-repeat: no-repeat; /* No repetir la imagen */
-    object-fit: cover;
-}
-
-
 /* Estilos para el footer */
 .footer {
-    margin-top: 2500px;
+    margin-top: 600px;
     background-color: #0D1152;
     color: white;
     display: flex;
     font: Arial;
-    height: 600px; /* Ajustar en funcion del tamaño del body */
+    padding: 15px;
 }
 
 .footer-left {
     width: 50%;
     display: flex;
     align-items: center;
-    font-size: 40px; /* Ajustar en funcion del tamaño del body */
+    font-size: 3vw;
+    /* Ajustar en funcion del tamaño del body */
     justify-content: center;
-    
+
 }
 
 .footer-right {
@@ -35,11 +23,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
+
 .social-icon {
-    width: 200px;  /* Ajustar en funcion del tamaño del body */
-    height: 200px;  /* Ajustar en funcion del tamaño del body */
+    width: 50px;
+    /* Ajustar en funcion del tamaño del body */
+    // height: 200px;  /* Ajustar en funcion del tamaño del body */
     margin-left: 25px;
 
 }

@@ -1,3 +1,15 @@
 @use "header.scss";
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @use "footer.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* Body pagina 1 */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../public/assets/images/background.jpeg'); /* Especifica la ruta a tu imagen */
+    background-size: cover; /* Escalar la imagen para que cubra toda la pantalla */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    object-fit: cover;
+    background-color: #0D1152;
+}
