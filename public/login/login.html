@@ -12,16 +12,21 @@
     <div container="loginBox">
         <div id="login-box">
             <form action="/tu_endpoint_de_autenticacion" method="post">
-                <label for="username" id="userName">Usuario</label><br>
-                <input type="text" id="username" name="username" required><br>
+
+                <section>
+                    <label for="username" id="userName">Usuario</label>
+                    <input type="text" id="username" name="username" required>
+                </section>
 
                 <label for="password">Contraseña</label><br>
                 <input type="password" id="password" name="password" required><br>
 
-                <input type="submit" value="Login">
+                <input id="btn-login" type="submit" value="Login">
             </form>
         </div>
     </div>
+
+    <script type="module" src="../js/app.js"></script>
 </body>
 
 </html>
