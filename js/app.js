@@ -1,4 +1,5 @@
-import { } from "./public/sorteos/sortep.js";
+//import { } from "./public/sorteos/sortep.js";
+
 
 function app() {
 
