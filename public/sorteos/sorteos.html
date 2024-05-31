@@ -1,68 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Inscripciones de Equipos</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8">
+    
+    <title>Inscripciones de Equipos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../public/css/styles.css">
 </head>
+
 <body>
-  <header>
-    <nav class="navbar blue-800">
-        <div class="container-fluid">
-            <span class="navbar-color navbar-brand">
-                <img class="logo" src="public/assets/logo/imagenlogo.jpg" alt="FútbolF5" />
-                Fútbol F5
-            </span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sorteo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Clasificatorias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Eliminatorias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ganador</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar blue-800">
+            <div class="container-fluid">
+                <span class="navbar-color navbar-brand">
+                    <img class="logo" src="public/assets/logo/imagenlogo.jpg" alt="FútbolF5" />
+                    Fútbol F5
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sorteo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clasificatorias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Eliminatorias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ganador</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Inscripciones de Equipos</h1>
+        <div id="team-list"></div>
+        <button id="add-team" class="btn btn-primary">Agregar Equipo</button>
+        <div id="team-count"></div>
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <p>&copy; Copyright 2024 Futbol F5</p>
         </div>
-    </nav>
-</header>
-<div class="container">
-  <h1>Inscripciones de Equipos</h1>
-  <div id="team-list"></div>
-  <button id="add-team" class="btn btn-primary">Agregar Equipo</button>
-  <div id="team-count"></div>
-</div>
+        <div class="footer-right">
+            <a href="https://www.instagram.com" target="_blank"><img src="./public/assets/images/instagram.png"
+                    alt="Instagram" class="social-icon"></a>
+            <a href="https://www.x.com" target="_blank"><img src="./public/assets/images/x.png" alt="X"
+                    class="social-icon"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="./public/assets/images/facebook.png"
+                    alt="Facebook" class="social-icon"></a>
+        </div>
+    </footer>
 
-<footer>
-  <div class="footer-left">
-      <p>&copy; Copyright 2024 Futbol F5</p>
-    </div>
-    <div class="footer-right">
-      <a href="https://www.instagram.com" target="_blank"><img src="./public/assets/images/instagram.png" alt="Instagram"
-          class="social-icon"></a>
-      <a href="https://www.x.com" target="_blank"><img src="./public/assets/images/x.png" alt="X" class="social-icon"></a>
-      <a href="https://www.facebook.com" target="_blank"><img src="./public/assets/images/facebook.png" alt="Facebook"
-          class="social-icon"></a>
-    </div>
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="sorteos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="sorteos.js"></script>
 </body>
+
 </html>
