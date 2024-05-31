@@ -6,25 +6,24 @@ footer {
     display: flex;
     font: Arial;
     padding: 15px;
+
+    .footer-left {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        font-size: 3vw;
+        /* Ajustar en funcion del tamaño del body */
+        justify-content: center;
+    }
+
+    .footer-right {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-.footer-left {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    font-size: 3vw;
-    /* Ajustar en funcion del tamaño del body */
-    justify-content: center;
-
-}
-
-.footer-right {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 
 .social-icon {
     width: 50px;
