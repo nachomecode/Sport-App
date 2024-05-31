@@ -16,7 +16,7 @@ header nav .navbar-color {
 }
 
 /* Estilos para el footer */
-.footer {
+footer {
   margin-top: 600px;
   background-color: #0D1152;
   color: white;
@@ -11946,7 +11946,9 @@ body {
   background-position: center; /* Centrar la imagen */
   background-repeat: no-repeat; /* No repetir la imagen */
   object-fit: cover;
-  background-color: #0D1152;
+}
+body main {
+  min-height: 50vh;
 }
 
 /*# sourceMappingURL=styles.css.map */
