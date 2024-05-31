@@ -1,8 +1,12 @@
-@use "header.scss";
-@use "footer.scss";
+@use "header";
+@use "footer";
+@use "login";
+@use "sorteos";
+@use "eliminatoria";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-/* Body pagina 1 */
+
+
 body {
     margin: 0;
     padding: 0;
