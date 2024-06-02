@@ -1,15 +1,15 @@
 
-let teams = [];
+let teams = []; //compañera acá almaceno los nombres de los equipos q se agregan, q es un arreglo x []
 
-function updateTeamCount() {
+function updateTeamCount() {   
   document.getElementById('team-count').textContent = `Equipos apuntados: ${teams.length}`;
 }
 
 function addTeam() {
-  const teamName = prompt('Nombre del equipo:');
-  const teamFlag = prompt('URL de la bandera o avatar:');
+  const teamName = prompt('Nombre del equipo:'); // Se Solicita el nombre del equipo
+  const teamFlag = prompt('URL de la bandera o avatar:'); //// Solicita la URL de la bandera
   if (teamName && teamFlag) {
-    teams.push({ name: teamName, flag: teamFlag });
+    teams.push({ name: teamName, flag: teamFlag }); //// Añade el nuevo equipo al arreglo
     renderTeams();
     updateTeamCount();
   }
@@ -30,20 +30,23 @@ function editTeam(index) {
 }
 
 function renderTeams() {
-  const listElement = document.getElementById('team-list');
-  listElement.innerHTML = '';
-  teams.forEach((team, index) => {
-    const teamElement = document.createElement('div');
-    teamElement.className = 'team-item';
+  const listElement = document.getElementById('team-list'); // Obtiene el contenedor de la lista de equipos
+  listElement.innerHTML = '';  // Limpia la lista actual
+  teams.forEach((team, index) => {   // Para cada equipo en el arreglo
+    const teamElement = document.createElement('div');   // Crea un nuevo div para el equipo
+    teamElement.className = 'team-item';  // Asigna la clase para estilos
     teamElement.innerHTML = `
       <img src="${team.flag}" alt="${team.name}" width="50" height="50">
       <span>${team.name}</span>
       <button onclick="editTeam(${index})">Editar</button>
       <button onclick="deleteTeam(${index})">Eliminar</button>
     `;
-    listElement.appendChild(teamElement);
+    listElement.appendChild(teamElement); // Añade el div al contenedor de la lista
   });
 }
 
 document.getElementById('add-team').addEventListener('click', addTeam);
 updateTeamCount();
+
+// renderTeams: se encarga de crear y mostrar los elementos visuales que representan a cada equipo en la página web, 
+//permitiendo también la edición y eliminación de estos mediante botones interactivos. 
