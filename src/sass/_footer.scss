@@ -1,34 +1,20 @@
-/* Estilos para el footer */
-footer {
-    margin-top: 600px;
-    background-color: #0D1152;
-    color: white;
+.footer {
     display: flex;
-    font: Arial;
-    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-    .footer-left {
-        width: 50%;
-        display: flex;
-        align-items: center;
-        font-size: 3vw;
-        /* Ajustar en funcion del tamaño del body */
-        justify-content: center;
-    }
-
-    .footer-right {
-        width: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .copyright {
+        color: white;
+        margin-bottom: 0;
     }
 }
 
-
 .social-icon {
-    width: 50px;
-    /* Ajustar en funcion del tamaño del body */
-    // height: 200px;  /* Ajustar en funcion del tamaño del body */
+    width: 30px;
+    height: auto;
     margin-left: 25px;
-
 }

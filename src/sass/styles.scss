@@ -3,6 +3,14 @@
 @use "login";
 @use "sorteos";
 @use "eliminatoria";
+
+$primary:#0d1152;
+$navbar-light-color: white;
+$navbar-light-hover-color: white;
+$navbar-light-active-color: white;
+$navbar-light-icon-color: white;
+$navbar-light-toggler-border-color: white;
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 
@@ -10,15 +18,17 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('../../public/assets/images/background.jpeg'); /* Especifica la ruta a tu imagen */
-    background-size: cover; /* Escalar la imagen para que cubra toda la pantalla */
-    background-position: center; /* Centrar la imagen */
-    background-repeat: no-repeat; /* No repetir la imagen */
-    object-fit: cover;
+    background-color: #0D1152;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     
     main {
-        min-height: 50vh;
+        background-image: url('../../public/assets/images/background.jpeg'); /* Especifica la ruta a tu imagen */
+        background-size: cover; /* Escalar la imagen para que cubra toda la pantalla */
+        background-position: center; /* Centrar la imagen */
+        background-repeat: no-repeat; /* No repetir la imagen */
+        object-fit: cover;
+        flex-grow: 1;
     }
-        
 }
-
