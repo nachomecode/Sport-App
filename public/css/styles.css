@@ -71,9 +71,13 @@ input[type=submit]:hover {
   background-color: #D9D9D9;
 }
 
-.team-item {
+#team-list {
+  height: 500px;
+  background-color: black;
   margin-top: 10px 0;
   align-self: flex-start;
+  justify-content: center;
+  color: white;
 }
 
 /*!
