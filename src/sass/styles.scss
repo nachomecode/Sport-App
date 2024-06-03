@@ -3,6 +3,14 @@
 @use "login";
 @use "sorteos";
 @use "eliminatoria";
+
+$primary:#0d1152;
+$navbar-light-color: white;
+$navbar-light-hover-color: white;
+$navbar-light-active-color: white;
+$navbar-light-icon-color: white;
+$navbar-light-toggler-border-color: white;
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 
