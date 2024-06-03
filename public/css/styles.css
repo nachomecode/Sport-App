@@ -5,35 +5,23 @@ header nav .logo {
   margin-left: 30px;
 }
 
-/* Estilos para el footer */
 .footer {
-  margin-top: 600px;
-  background-color: #0D1152;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer .copyright {
   color: white;
-  display: flex;
-  font: Arial;
-  padding: 15px;
-}
-
-.footer-left {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  font-size: 3vw;
-  /* Ajustar en funcion del tamaño del body */
-  justify-content: center;
-}
-
-.footer-right {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 0;
 }
 
 .social-icon {
-  width: 50px;
-  /* Ajustar en funcion del tamaño del body */
+  width: 30px;
+  height: auto;
   margin-left: 25px;
 }
 
@@ -11931,12 +11919,18 @@ textarea.form-control-lg {
 body {
   margin: 0;
   padding: 0;
+  background-color: #0D1152;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body main {
   background-image: url("../../public/assets/images/background.jpeg"); /* Especifica la ruta a tu imagen */
   background-size: cover; /* Escalar la imagen para que cubra toda la pantalla */
   background-position: center; /* Centrar la imagen */
   background-repeat: no-repeat; /* No repetir la imagen */
   object-fit: cover;
-  background-color: #0D1152;
+  flex-grow: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */
