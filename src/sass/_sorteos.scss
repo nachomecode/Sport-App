@@ -1,25 +1,4 @@
-header {
-  background-color: #0d1152;
 
-  nav {
-    display: flex;
-
-
-    .logo {
-      width: 100px;
-      height: auto;
-      margin-left: 30px;
-
-    }
-
-    .navbar-color {
-      font-family: Arial, Helvetica, sans-serif;
-      color: white;
-
-
-    }
-  }
-}
 
 
 .team-item {
@@ -28,37 +7,3 @@ header {
 }
 
 
-
-/* Estilos para el footer */
-footer {
-  margin-top: 600px;
-  background-color: #0D1152;
-  color: white;
-  display: flex;
-  font: Arial;
-  padding: 15px;
-
-  .footer-left {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    font-size: 3vw;
-    /* Ajustar en funcion del tamaño del body */
-    justify-content: center;
-  }
-
-  .footer-right {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-.social-icon {
-  width: 50px;
-  /* Ajustar en funcion del tamaño del body */
-  // height: 200px;  /* Ajustar en funcion del tamaño del body */
-  margin-left: 25px;
-
-}
