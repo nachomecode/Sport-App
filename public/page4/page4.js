@@ -1,11 +1,9 @@
+
+let teams = JSON.parse(localStorage.getItem('teams')) || []; 
+
 function generarTablas() {
     // teams a repartir
-    const teams = [
-        "Equipo 1", "Equipo 2", "Equipo 3", "Equipo 4",
-        "Equipo 5", "Equipo 6", "Equipo 7", "Equipo 8",
-        "Equipo 9", "Equipo 10", "Equipo 11", "Equipo 12",
-        "Equipo 13", "Equipo 14", "Equipo 15", "Equipo 16"
-    ];
+    const teams = localStorage.getItem('teams');
 
     // Mezclar los teams de forma aleatoria
     for (let i = teams.length - 1; i > 0; i--) {

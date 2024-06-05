@@ -1,8 +1,13 @@
 
-let teams = []; //compañera acá almaceno los nombres de los equipos q se agregan, q es un arreglo x []
+let teams = JSON.parse(localStorage.getItem('teams')) || []; //compañera acá almaceno los nombres de los equipos q se agregan, q es un arreglo x []
 
-function updateTeamCount() {   
+
+function updateTeamCount() {
   document.getElementById('team-count').textContent = `Equipos apuntados: ${teams.length}`;
+}
+
+function saveTeams() {
+  localStorage.setItem('teams', JSON.stringify(teams)); // Guarda el arreglo de equipos en la memoria local
 }
 
 function addTeam() {
