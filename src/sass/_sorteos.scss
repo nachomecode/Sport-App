@@ -1,7 +1,15 @@
 
+.container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: violet;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
 
 #team-list {
-  height: 500px;
   background-color: violet;
   margin-top: 10px 0;
   align-self: flex-start;
@@ -9,6 +17,7 @@
   color: white ;
   align-items: center;
 }
+
 
 
 

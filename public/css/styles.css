@@ -71,14 +71,31 @@ input[type=submit]:hover {
   background-color: #D9D9D9;
 }
 
-#team-list {
+.container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: violet;
+  align-items: center;
+  width: 500px;
   height: 500px;
+}
+
+#team-list {
   background-color: violet;
   margin-top: 10px 0;
   align-self: flex-start;
   justify-content: center;
   color: white;
   align-items: center;
+}
+
+#tituloGanador {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /*!
