@@ -72,17 +72,16 @@ input[type=submit]:hover {
 }
 
 .container {
-  color: white;
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100vh;
   align-items: center;
+  color: white;
 }
 
 #team-list {
-  background-color: violet;
   margin-top: 10px 0;
   color: white;
   align-items: center;
@@ -91,6 +90,25 @@ input[type=submit]:hover {
 #add-team {
   border-color: black;
   border-width: 2px;
+}
+
+#contenedorTablas {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vh;
+  align-items: left;
+  color: white;
+  justify-content: space-around;
+}
+
+#tituloGanador {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /*!
