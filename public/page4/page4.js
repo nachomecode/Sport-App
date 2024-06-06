@@ -1,9 +1,15 @@
 
-let teams = JSON.parse(localStorage.getItem('teams')) || []; 
+//let teams = JSON.parse(localStorage.getItem('teams')) || []; 
 
 function generarTablas() {
     // teams a repartir
-    const teams = localStorage.getItem('teams');
+   // const teams = localStorage.getItem('teams');
+   const teams = [
+    "España", "Francia", "Argentina", "Brasil",
+    "Italia", "Alemania", "Japón", "Portugal",
+    "Venezuela", "Maldivas", "Vietnam", "Camboya",
+    "México", "Bélgica", "Grecia", "Colombia"
+];
 
     // Mezclar los teams de forma aleatoria
     for (let i = teams.length - 1; i > 0; i--) {
