@@ -11971,6 +11971,14 @@ body main {
   background-repeat: no-repeat; /* No repetir la imagen */
   object-fit: cover;
   flex-grow: 1;
+  color: white;
+}
+body .h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
